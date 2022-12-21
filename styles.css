@@ -275,7 +275,7 @@
     opacity: .85;
     text-align:right;
     position: absolute;
-    bottom: 3px;
+    bottom: 5px;
     right: 7px;
   }
 
@@ -302,7 +302,7 @@
   }
   #message-paragraph > p{
     margin-top: 10px;
-    font-size: calc(.95em + 1vw);
+    font-size: calc(.95em + .95vw);
   }
 
   /* fireworks */
