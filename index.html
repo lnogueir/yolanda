@@ -3,71 +3,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mae, te amo</title>
+    <title>Yolinda...</title>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
     <link rel="icon" type="image/x-icon" href="favicon.ico" />
     <link type="text/css" rel="stylesheet" href="styles.css">
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css"
     />
+    <link
+      rel="stylesheet" type="text/css"
+      href="https://cdn.jsdelivr.net/gh/loadingio/loading.css@v2.0.0/dist/loading.min.css"
+    />
 </head>
 <body>
+  <audio id="thinking-out-loud">
+    <source src="sound/ThinkingOutLoud.mp3" type="audio/mpeg">
+  </audio>
   <div id="feliz-dia">
-    <div>
-      <p id="writer1" class="writer"></p>
-      <p id="writer2" class="writer"></p>
+    <div class="pyro" style="display: none;">
+      <div class="before"></div>
+      <div class="after"></div>
     </div>
-    
-  </div>
-  <div id="main-view">
-    <ul class="main-nav">
-      <li class="item1">
-        <div class="bg"></div>
-      </li>
-      <li class="item2">
-        <div class="bg"></div>
-      </li>
-      <li class="item3">
-        <div class="bg"></div>
-      </li>
-      <li class="item4">
-        <div class="bg"></div>
-      </li>
-      <li class="item5">
-        <div class="bg"></div>
-      </li>
-    </ul>
-    <div id="init-button">
-      <button class="animate__animated icon-btn add-btn">
-        <div class="add-icon"><span id="heart-emoji">💓</span></div>
-        <div class="btn-txt"><span id="teamo">Te amo</span></div>
-      </button>
+
+    <div class="writer-yes-no-block animate__animated">
+      <p id="writer" class="writer"></p>
+      <div id="yes-no-buttons">
+        <button class="animate__animated icon-btn add-btn">
+          <span id="yes-button">Yes</span>
+        </button>
+        <button class="animate__animated icon-btn add-btn">
+          <span id="no-button">No</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="photos-galery animate__animated">
+      <img src="images/0.jpeg"/>
+    </div>
+
+    <div class="spinning-loader animate__animated">
+      <div class="ld ld-ring ld-spin"></div>
     </div>
   </div>
+
   <div id="paragrafo-part">
     <div id="second-main">
-      <img src="images/chile_resta.jpeg"/>
-      <div id="mom-paragraph">
-        <h1 style="margin-top:10px">Minha Mãe,</h1>
+      <!-- <img src="images/chile_resta.jpeg"/> -->
+      <div id="message-paragraph">
+        <h1 style="margin-top:10px">Yolanda,</h1>
         <p>
-          Através desse pequeno site gostaria de lhe desejar feliz dia das mães, 
-          para você que consegue ser, ao mesmo tempo, a melhor mãe, pai e amiga que Deus poderia ter me dado.
-          Quero do fundo do meu coração te agradecer por tudo que você fez e faz por mim todos os dias.
+          I am overwhelmed with gratitude and love to be here with you right now. You are an extraordinary person, and I am truly blessed to have you as my partner.
           <br/><br/>
-          Obrigado por sempre ter me colocado em primeiro lugar, por ter me providenciado uma vida que muitas vezes não cabia no seu bolso e sempre ter demonstrado prazer em fazer isso por saber que estava fazendo o melhor para mim.
-          Obrigado por nunca ter duvidado de mim e do meu potencial, por ser minha fonte inesgotável de inspiração e ser o maior exemplo de mulher que eu ja vi.
-          Obrigado por ter construido a relação mais linda que mãe e filho poderiam construir.
-          Uma relação de muita amizade, companheirismo e amor. <br/>
-          Obrigado por existir, minha mãe, eu tenho <b>orgulho</b> de ser seu filho.
+          Since we met, we have genuinely become best friends. You take care of me, believe in my potential, and make me feel loved and special. That's all I've ever asked for and I want to do the same for you and make you feel lucky like I do every day until we are 80.
           <br/><br/>
-          Espero que seja claro o quanto sou grato a você e saiba que dedicarei tudo de mim para podermos, num futuro próximo, estar juntos de novo, e você, finalmente, desfrutar de todo seu trabalho, físico e emocional, aqui comigo e com quem quer que esteja ao nosso lado.
+          I am so grateful to have you by my side and thankful that you chose me to go through life holding hands. I am certain that we will go very far together and I promise you I will do my best every day to make us reach greater horizons.
           <br/><br/>
-          Eu te <b>amo</b>, minha mãe.
+          I can't wait to see what the future holds, and I am so happy that I get to spend it with you.
+          <br/><br/>
+          I love you, Mami.
         </p>
       </div>
     </div>
     <div id="footer">
-      Made with 💖 by Seu Filho
+      By Your Papi with 💖
     </div>
   </div>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
