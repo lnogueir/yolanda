@@ -302,7 +302,7 @@
   }
   #message-paragraph > p{
     margin-top: 10px;
-    font-size: calc(.95em + .95vw);
+    font-size: .95rem;
   }
 
   /* fireworks */
