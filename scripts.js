@@ -54,7 +54,7 @@ function animatePhotos() {
             setTimeout(() => {
                 $("#paragrafo-part").css('display', 'block');
                 $('html, body').animate({
-                    scrollTop: $("#paragrafo-part").offset().top
+                    scrollTop: $("#paragrafo-part").offset().top - 30
                 }, 1000, function () {
                     $("#feliz-dia").css('display', 'none')
                 });
