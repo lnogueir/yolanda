@@ -271,12 +271,9 @@
 
   #footer{
     width: 100%;
-    padding: 7px;
-    opacity: .85;
+    padding-right: 10px;
+    padding-top: 10px;
     text-align:right;
-    position: absolute;
-    bottom: 5px;
-    right: 7px;
   }
 
   #second-main{
@@ -302,7 +299,7 @@
   }
   #message-paragraph > p{
     margin-top: 10px;
-    font-size: .95rem;
+    font-size: .96rem;
   }
 
   /* fireworks */
